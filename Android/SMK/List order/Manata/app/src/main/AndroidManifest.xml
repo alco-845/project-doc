@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alcorp.manata">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityBarangTambah"></activity>
+        <activity android:name=".ActivityBarang" />
+        <activity android:name=".ActivityKategoriTambah" />
+        <activity android:name=".ActivityKategori" />
+        <activity
+            android:name=".ActivityLaporanKeuangan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityTambahPengeluaran"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityTambahPemasukan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityPenjualanUpdate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityBayar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityCetakCari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityPenjualan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityPenjualanCari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityRestore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityBackup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityCetak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityPenjualanProses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityPelangganTambah"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityPelanggan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityIdentitas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtilitas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityLaporan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityTransaksi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMaster"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityKirim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityRequest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityTampil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitySplash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

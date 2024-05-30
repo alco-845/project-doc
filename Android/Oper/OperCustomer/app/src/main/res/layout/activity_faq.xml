@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.account.FaqActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/baseline_question_answer_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvFaq" />
+
+    <TextView
+        android:id="@+id/tvFaq"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="6dp"
+        android:text="Frequently Searched Topic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFaq"
+        app:layout_constraintEnd_toEndOf="@+id/tvFaq"
+        app:layout_constraintTop_toTopOf="@+id/tvFaq" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="@+id/tvFaq"
+        app:layout_constraintStart_toStartOf="@+id/tvFaq"
+        app:layout_constraintTop_toBottomOf="@+id/tvFaq" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_security_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLanguage"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/tvLanguage" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="6dp"
+        android:text="Security and Emergency"
+        app:layout_constraintEnd_toEndOf="@+id/tvFaq"
+        app:layout_constraintStart_toStartOf="@+id/tvFaq"
+        app:layout_constraintTop_toBottomOf="@+id/tvFaq" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLanguage"
+        app:layout_constraintEnd_toEndOf="@+id/tvLanguage"
+        app:layout_constraintTop_toTopOf="@+id/tvLanguage" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="@+id/tvLanguage"
+        app:layout_constraintStart_toStartOf="@+id/tvLanguage"
+        app:layout_constraintTop_toBottomOf="@+id/tvLanguage" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/outline_account_circle_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/tvBank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="6dp"
+        android:text="Account"
+        app:layout_constraintEnd_toEndOf="@+id/tvLanguage"
+        app:layout_constraintStart_toStartOf="@+id/tvLanguage"
+        app:layout_constraintTop_toBottomOf="@+id/tvLanguage" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/tvBank"
+        app:layout_constraintEnd_toEndOf="@+id/tvBank"
+        app:layout_constraintTop_toTopOf="@+id/tvBank" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="@+id/tvBank"
+        app:layout_constraintStart_toStartOf="@+id/tvBank"
+        app:layout_constraintTop_toBottomOf="@+id/tvBank" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_report_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/view6"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="6dp"
+        android:text="Problem with the Application"
+        app:layout_constraintEnd_toEndOf="@+id/tvBank"
+        app:layout_constraintStart_toStartOf="@+id/tvBank"
+        app:layout_constraintTop_toBottomOf="@+id/tvBank" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNotification"
+        app:layout_constraintEnd_toEndOf="@+id/tvNotification"
+        app:layout_constraintTop_toTopOf="@+id/tvNotification" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="@+id/tvNotification"
+        app:layout_constraintStart_toStartOf="@+id/tvNotification"
+        app:layout_constraintTop_toBottomOf="@+id/tvNotification" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

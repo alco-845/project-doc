@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">BirdB&amp;S User</string>
+
+    <!--    Item-->
+    <string name="txt_bird_name">Bird name</string>
+    <string name="txt_bird_price">Bird price</string>
+    <string name="txt_bird_value">Bird value</string>
+    <string name="txt_bird_qty">0</string>
+    <string name="txt_add_to_cart">Add to Cart</string>
+    <!--    End of Item-->
+
+    <!--    Menu Profile-->
+    <string name="txt_home">Home</string>
+    <!--    End of menu Profile-->
+
+    <!--    Menu Cart-->
+    <string name="txt_cart">Cart</string>
+    <!--    End of menu Cart-->
+
+    <!--    Menu History-->
+    <string name="title_history">History</string>
+    <string name="txt_tampilkan">Display</string>
+    <string name="txt_penghubung">-----</string>
+    <string name="txt_dari">From date</string>
+    <string name="txt_tanggal">Date</string>
+    <string name="txt_jam">Time</string>
+    <string name="txt_sampai">Till date</string>
+    <!--    End of menu History-->
+
+    <!--    Menu Detail History-->
+    <string name="title_detail_history">Detail History</string>
+    <string name="txt_date">07/09/2021</string>
+    <string name="txt_name">John Doe</string>
+    <string name="txt_address">Italy</string>
+    <string name="txt_phone">088888</string>
+    <string name="txt_status">Not yet paid</string>
+    <string name="txt_total">Total : Rp. 0</string>
+    <string name="txt_pay">Pay : Rp. 0</string>
+    <string name="txt_return">Return : Rp. 0</string>
+    <string name="txt_submit">Submit</string>
+    <!--    End of menu Detail History-->
+
+    <!--    Menu Profile-->
+    <string name="txt_profile">Profile</string>
+    <string name="txt_update">Update</string>
+    <!--    End of menu Profile-->
+
+    <!--    Menu Update Profile-->
+    <string name="txt_update_profile">Update Profile</string>
+    <string name="input_name">Name</string>
+    <string name="input_address">Address</string>
+    <string name="input_phone">Phone</string>
+    <!--    End of menu Update Profile-->
+
+    <!--    Login & Register-->
+    <string name="txt_login_page">Login Page</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_login_now">Login Now</string>
+    <string name="txt_sign_up">Don’t have account? Sign up now</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_register_page">Register Page</string>
+    <string name="txt_register_now">Register Now</string>
+    <string name="txt_login">Already have account? Login now</string>
+    <!--    End of Login & Register-->
+</resources>

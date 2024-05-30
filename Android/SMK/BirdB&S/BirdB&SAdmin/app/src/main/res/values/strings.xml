@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">BirdB&amp;S Admin</string>
+
+    <!--    Menu list item-->
+    <string name="title_list_item">List Item</string>
+    <!--    End of menu list item-->
+
+    <!--    Menu add item-->
+    <string name="title_add_item">Add Item</string>
+
+    <string name="btn_upload_image">Upload Image</string>
+    <string name="item_name">Name</string>
+    <string name="item_price">Price</string>
+    <string name="txt_value">0</string>
+    <string name="btn_submit">Submit</string>
+    <!--    End of menu add item-->
+
+    <!--    Menu Transaction-->
+    <string name="title_transaction">Transaction</string>
+
+    <string name="txt_tampilkan">Display</string>
+    <string name="txt_penghubung">-----</string>
+    <string name="txt_dari">From date</string>
+    <string name="txt_tanggal">Date</string>
+    <string name="txt_jam">Time</string>
+    <string name="txt_sampai">Till date</string>
+    <array name="list_bayar">
+        <item>All</item>
+        <item>Already paid</item>
+        <item>Not yet paid</item>
+    </array>
+    <!--    End of menu transaction-->
+
+    <!--    Menu Detail transaction-->
+    <string name="title_detail_transaction">Detail Transaction</string>
+    <string name="txt_date">07/09/2021</string>
+    <string name="txt_name">John Doe</string>
+    <string name="txt_address">Italy</string>
+    <string name="txt_status">Not yet paid</string>
+    <string name="txt_total">Total</string>
+    <string name="txt_pay">Pay</string>
+    <string name="txt_return">Return</string>
+    <string name="txt_pay_button">Pay</string>
+    <!--    End of menu Detail transaction-->
+
+    <!--    Menu list item-->
+    <string name="title_payment">Payment</string>
+    <!--    End of menu list item-->
+
+    <!--    Item-->
+    <string name="txt_bird_name">Bird name</string>
+    <string name="txt_bird_price">Bird price</string>
+    <string name="txt_bird_value">Bird value</string>
+    <string name="txt_login_page">Login Page</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_login_now">Login Now</string>
+    <string name="txt_sign_up">Don’t have account? Sign up now</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_register_page">Register Page</string>
+    <string name="txt_register_now">Register Now</string>
+    <string name="txt_login">Already have account? Login now</string>
+    <!--    End of Item-->
+
+</resources>

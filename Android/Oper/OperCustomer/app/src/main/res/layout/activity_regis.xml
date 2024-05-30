@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.RegisActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <com.shuhart.stepview.StepView
+            android:id="@+id/step_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:padding="24dp"
+            app:sv_steps="@array/stepper_title"
+            app:sv_animationType="Line"
+            app:sv_stepPadding="12dp" />
+
+        <include
+            android:id="@+id/item_account_data"
+            layout="@layout/item_data_account" />
+
+        <include
+            android:id="@+id/item_data_customer"
+            layout="@layout/item_data_customer" />
+
+        <include
+            android:id="@+id/item_data_driver"
+            layout="@layout/item_data_driver" />
+
+        <include
+            android:id="@+id/item_data_partner"
+            layout="@layout/item_data_partner" />
+
+        <include
+            android:id="@+id/item_data_agreement"
+            layout="@layout/item_data_agreement" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:backgroundTint="@color/primary"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:backgroundTint="@color/secondary"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

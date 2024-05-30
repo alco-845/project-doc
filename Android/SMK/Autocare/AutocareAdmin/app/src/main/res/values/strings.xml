@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Autocare Admin</string>
+
+    <array name="kategori">
+        <item>Service Kendaraan</item>
+        <item>Ganti Oli</item>
+        <item>Ganti Ban</item>
+        <item>Ganti Sparepart</item>
+    </array>
+</resources>

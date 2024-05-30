@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Oper</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_customer_activity">Customer Activity</string>
+    <string name="title_account">Account</string>
+
+    <string name="title_food_drink">Food &amp; Drink</string>
+    <string name="title_mart">Mart</string>
+    <string name="title_goods">Send Goods</string>
+
+    <string-array name="stepper_title">
+        <item>Account Data</item>
+        <item>Personal Data</item>
+        <item>Finish</item>
+    </string-array>
+
+    <string-array name="spinner_role">
+        <item>Customer</item>
+        <item>Driver</item>
+        <item>Partner</item>
+    </string-array>
+
+    <string name="title_activity_taxi_bike">TaxiBikeActivity</string>
+    <string name="title_activity_delivery">DeliveryActivity</string>
+
+    <string name="title_activity_partner_main">PartnerMainActivity</string>
+    <string name="title_order">Order</string>
+    <string name="title_catalogue">Catalogue</string>
+    <string name="title_income_and_bill">Income &amp; Bill</string>
+    <string name="title_history">History</string>
+
+    <string name="title_activity_driver_main">DriverMainActivity</string>
+    <string name="title_select_order">Select Order</string>
+    <string name="title_order_list">Order List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

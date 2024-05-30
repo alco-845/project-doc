@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_food_drink"
+        android:icon="@drawable/baseline_fastfood_24"
+        android:title="@string/title_food_drink" />
+
+    <item
+        android:id="@+id/navigation_mart"
+        android:icon="@drawable/baseline_store_mall_directory_24"
+        android:title="@string/title_mart" />
+
+    <item
+        android:id="@+id/navigation_goods"
+        android:icon="@drawable/baseline_redeem_24"
+        android:title="@string/title_goods" />
+</menu>

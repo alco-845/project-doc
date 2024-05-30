@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hi-King Admin</string>
+
+    <array name="transaksi">
+        <item>All</item>
+        <item>Sewa</item>
+        <item>Dikembalikan</item>
+    </array>
+
+    <array name="kategori">
+        <item>Tas Ransel</item>
+        <item>Tenda</item>
+        <item>Kompor Portable</item>
+    </array>
+
+    <array name="kategori_all">
+        <item>All</item>
+        <item>Tas Ransel</item>
+        <item>Tenda</item>
+        <item>Kompor Portable</item>
+    </array>
+</resources>

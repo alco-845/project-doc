@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">List Order</string>
+
+    <string-array name="Istatus">
+        <item>Konfirmasi</item>
+        <item>Proses Desain</item>
+        <item>Proses Produksi</item>
+    </string-array>
+
+    <string-array name="Ustatus">
+        <item>Konfirmasi</item>
+        <item>Proses Desain</item>
+        <item>Proses Produksi</item>
+        <item>Selesai</item>
+        <item>Terkirim</item>
+    </string-array>
+
+    <string-array name="Lstatus">
+        <item>Semua</item>
+        <item>Konfirmasi</item>
+        <item>Proses Desain</item>
+        <item>Proses Produksi</item>
+        <item>Selesai</item>
+    </string-array>
+
+    <string-array name="jenis">
+        <item>Barang</item>
+        <item>Jasa</item>
+    </string-array>
+
+    <string-array name="ukuran">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
+
+    <string-array name="kategori">
+        <item>Lengan Panjang</item>
+        <item>Lengan Pendek</item>
+    </string-array>
+
+    <string-array name="metod">
+        <item>Tunai DP</item>
+        <item>Tunai Lunas</item>
+        <item>Bank Transfer</item>
+    </string-array>
+
+    <string-array name="metod_hutang">
+        <item>Cicil</item>
+        <item>Tunai Lunas</item>
+        <item>Bank Transfer</item>
+    </string-array>
+
+    <string-array name="laporan">
+        <item>Semua</item>
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoParty</string>
+    <string name="title_activity_btnberanda">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_activity_btr_beranda">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="transaksi">
+        <item>Tenda Pesta</item>
+        <item>Meja Kursi</item>
+        <item>Alat Makan</item>
+        <item>Sound System</item>
+    </array>
+</resources>

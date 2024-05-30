@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheetContainer"
+    android:background="@drawable/bottom_sheet_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvDialogBirdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_bird_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDialogBirdPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_bird_price"
+        app:layout_constraintStart_toStartOf="@+id/tvDialogBirdName"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogBirdName" />
+
+    <TextView
+        android:id="@+id/tvDialogBirdValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_bird_value"
+        app:layout_constraintStart_toStartOf="@+id/tvDialogBirdPrice"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogBirdPrice" />
+
+    <EditText
+        android:id="@+id/edtDialogBirdValue"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="numberDecimal"
+        android:text="@string/txt_bird_qty"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/btnSubmit"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogBirdValue" />
+
+    <ImageView
+        android:id="@+id/btnPlus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_add_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/edtDialogBirdValue"
+        app:layout_constraintEnd_toEndOf="@+id/btnSubmit"
+        app:layout_constraintTop_toTopOf="@+id/edtDialogBirdValue" />
+
+    <ImageView
+        android:id="@+id/btnMin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        android:src="@drawable/ic_remove_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/edtDialogBirdValue"
+        app:layout_constraintEnd_toStartOf="@+id/edtDialogBirdValue"
+        app:layout_constraintTop_toTopOf="@+id/edtDialogBirdValue" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/primary"
+        android:text="@string/txt_add_to_cart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDialogBirdValue" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

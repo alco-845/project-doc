@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_food_drink">
+
+    <fragment
+        android:id="@+id/navigation_food_drink"
+        android:name="com.alcorp.oper.ui.customer.home.delivery.food_drink.FoodDrinkFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_food_drink" />
+
+    <fragment
+        android:id="@+id/navigation_mart"
+        android:name="com.alcorp.oper.ui.customer.home.delivery.mart.MartFragment"
+        android:label="@string/title_mart"
+        tools:layout="@layout/fragment_mart" />
+
+    <fragment
+        android:id="@+id/navigation_goods"
+        android:name="com.alcorp.oper.ui.customer.home.delivery.goods.GoodsFragment"
+        android:label="@string/title_goods"
+        tools:layout="@layout/fragment_goods" />
+</navigation>

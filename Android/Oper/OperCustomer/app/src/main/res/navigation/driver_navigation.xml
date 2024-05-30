@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_select_order">
+
+    <fragment
+        android:id="@+id/navigation_select_order"
+        android:name="com.alcorp.oper.ui.driver.select_order.SelectOrderFragment"
+        android:label="@string/title_select_order"
+        tools:layout="@layout/fragment_select_order" />
+
+    <fragment
+        android:id="@+id/navigation_order_list"
+        android:name="com.alcorp.oper.ui.driver.order_list.OrderListFragment"
+        android:label="@string/title_order_list"
+        tools:layout="@layout/fragment_order_list" />
+
+    <fragment
+        android:id="@+id/navigation_income_and_bill_driver"
+        android:name="com.alcorp.oper.ui.driver.income_and_bill_driver.IncomeAndBillDriverFragment"
+        android:label="@string/title_income_and_bill"
+        tools:layout="@layout/fragment_income_and_bill_driver" />
+
+    <fragment
+        android:id="@+id/navigation_history_driver"
+        android:name="com.alcorp.oper.ui.driver.history_driver.HistoryDriverFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history_driver" />
+</navigation>

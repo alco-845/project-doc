@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <ImageView
+            android:id="@+id/idIVCourse"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/mart_dummy" />
+
+        <TextView
+            android:id="@+id/idTVCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVCourse"
+            android:text="Sunlight 500 ml"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idTVCourseTracks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVCourseName"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVCourse"
+            android:text="Rp.9.000"
+            android:textColor="@color/primary"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_below="@+id/idIVCourse"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/view7"
+            android:layout_alignEnd="@id/view7"
+            android:src="@drawable/baseline_add_circle_24" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="1"
+            android:textAlignment="center"
+            android:layout_alignTop="@id/imageView22"
+            android:layout_alignBottom="@id/imageView22"
+            android:layout_toStartOf="@id/imageView22"
+            android:layout_below="@+id/view7" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_alignTop="@id/imageView22"
+            android:layout_alignBottom="@id/imageView22"
+            android:layout_toStartOf="@id/editTextTextPersonName4"
+            android:src="@drawable/baseline_remove_circle_24" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_below="@+id/imageView23"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/idTvjumlah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/view7"
+            android:layout_alignTop="@id/imageView22"
+            android:layout_alignBottom="@id/imageView22"
+            android:text="Jumlah" />
+
+        <Button
+            android:id="@+id/idBtnDismiss"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view8"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="Add to Basket"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

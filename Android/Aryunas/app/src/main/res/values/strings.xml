@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aryunas</string>
+
+    <array name="listTgl">
+        <item>Semua</item>
+        <item>Berdasarkan Tanggal Booking</item>
+    </array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_select_order"
+        android:icon="@drawable/outline_directions_bike_24"
+        android:title="@string/title_select_order" />
+
+    <item
+        android:id="@+id/navigation_order_list"
+        android:icon="@drawable/outline_shopping_bag_24"
+        android:title="@string/title_order_list" />
+
+    <item
+        android:id="@+id/navigation_income_and_bill_driver"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="@string/title_income_and_bill" />
+
+    <item
+        android:id="@+id/navigation_history_driver"
+        android:icon="@drawable/baseline_history_24"
+        android:title="@string/title_history" />
+
+</menu>
