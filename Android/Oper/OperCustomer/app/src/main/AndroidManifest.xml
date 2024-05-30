@@ -115,7 +115,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAXbj214LuZs6RLQ8qyvbz6D0Ou0s96eMY" />
+            android:value="google-maps-token" />
 
         <activity
             android:name=".ui.customer.home.taxi_bike.TaxiBikeActivity"
